@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    
+    <title>
+        DATS
+    </title>
+
+    <div class="header">
+      <h1>Zen Help</h1>
+      <p>A Troubleshooter for Geeks</p>
+    </div>
+
+    <head>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+         
+
+    <body>
+ 
+      <form action="#" id="unique_id" class="productFilter">
+        <fieldset class="step1 option0">
+            <legend>Category</legend>
+            <p>
+                <input id="question_1" name="group_1" type="radio" />
+                <label for="question_1">Laptop / Desktop</label>
+            </p>
+            <p>
+                <input id="question_2" name="group_1" type="radio"/>
+                <label for="question_2">Printer</label>
+            </p>
+            <p>
+              <input id="question_3" name="group_1" type="radio"/>
+              <label for="question_3">Networking</label>
+          </p>
+          <p>
+            <input id="question_4" name="group_1" type="radio"/>
+            <label for="question_4">Application</label>
+        </p>
+        </fieldset>
+        <fieldset class="hide step2 option1">
+            <legend>Are other servers in the Rack receiving Power?</legend>
+            <p>
+                <input id="question_1_1" name="group_2" type="radio" />
+                <label for="question_1_1">Yes</label>
+            </p>
+            <p>
+                <input id="question_1_2" name="group_2" type="radio" />
+                <label for="question_1_2">No</label>
+            </p>
+        </fieldset>
+        <fieldset class="hide step2 option2">
+            <legend>Try Different Wall Sockets, Still No Power</legend>
+            <p>
+                <input id="question_2_1" name="group_3" type="radio" />
+                <label for="question_2_1">Yes</label>
+            </p>
+            <p>
+                <input id="question_2_2" name="group_3" type="radio" />
+                <label for="question_2_2">No</label>
+            </p>
+        </fieldset>
+        <fieldset class="hide step3 option11">
+            <legend>The Rack Power is fine, Try different power sockets in Rack, Still No Power?</legend>
+            <p>
+                <input id="question_1_1_1" name="group_4" type="radio"/>
+                <label for="question_1_1_1">Yes</label>
+            </p>
+            <p>
+                <input id="question_1_1_2" name="group_4" type="radio"/>
+                <label for="question_1_1_2">No</label>
+            </p>
+        </fieldset>
+        <fieldset class="hide step3 option12">
+            <legend>Check Rack Power (PDU) and Main Power and UPS</legend>
+            <p>
+                <input id="question_1_2_1" name="group_5" type="radio"/>
+                <label for="question_1_2_1">Yes</label>
+            </p>
+            <p>
+                <input id="question_1_2_2" name="group_5" type="radio" />
+                <label for="question_1_2_2">No</label>
+            </p>
+        </fieldset>
+        <fieldset class="hide step3 option21">
+            <legend>Reseat the power cables on the server PSU ,Still No Power</legend>
+            <p>
+                <input id="question_2_1_1" name="group_6" type="radio" />
+                <label for="question_2_1_1">Yes</label>
+            </p>
+            <p>
+                <input id="question_2_1_2" name="group_6" type="radio" />
+                <label for="question_2_1_2">No</label>
+            </p>
+        </fieldset>
+        <fieldset class="hide step3 option22">
+            <legend>Its an Issue with the wall socket</legend>
+            <p>
+                <input id="question_2_2_1" name="group_7" type="radio" />
+                <label for="question_2_2_1">Resolved</label>
+            </p>
+            <p>
+                <input id="question_2_2_2" name="group_7" type="radio" />
+                <label for="question_2_2_2">No</label>
+            </p>
+        </fieldset>
+    </form>
+
+    <footer>
+      <p>
+      An open-source project by Daniel Conrad
+      </p>
+      <p>
+        Problem? Submit via GitHub
+      </p>
+    </footer>
+        
+      
+    </body>
+    
+    </html>
