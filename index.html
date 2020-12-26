@@ -6,7 +6,7 @@
     </title>
 
     <div class="header">
-      <h1>Zen Help</h1>
+      <h1>Zen Help <i>Alpha</i></h1>
       <p>A Troubleshooter for Geeks</p>
     </div>
 
@@ -32,57 +32,97 @@
             </p>
             <p>
               <input id="question_3" name="group_1" type="radio"/>
-              <label for="question_3">Networking</label>
+              <label for="question_3">Networking (Routers, Switches)</label>
           </p>
           <p>
             <input id="question_4" name="group_1" type="radio"/>
             <label for="question_4">Application</label>
         </p>
         </fieldset>
+
         <fieldset class="hide step2 option1">
-            <legend>Are other servers in the Rack receiving Power?</legend>
+            <legend>Access Type</legend>
             <p>
                 <input id="question_1_1" name="group_2" type="radio" />
-                <label for="question_1_1">Yes</label>
+                <label for="question_1_1">I have remote access to the machine.</label>
             </p>
             <p>
                 <input id="question_1_2" name="group_2" type="radio" />
-                <label for="question_1_2">No</label>
+                <label for="question_1_2">I have physical access to the machine.</label>
             </p>
         </fieldset>
+
         <fieldset class="hide step2 option2">
-            <legend>Try Different Wall Sockets, Still No Power</legend>
+            <legend>Access Type</legend>
             <p>
                 <input id="question_2_1" name="group_3" type="radio" />
-                <label for="question_2_1">Yes</label>
+                <label for="question_2_1">I have remote access to the printer.</label>
             </p>
             <p>
                 <input id="question_2_2" name="group_3" type="radio" />
-                <label for="question_2_2">No</label>
+                <label for="question_2_2">I have physical access to the printer.</label>
             </p>
         </fieldset>
+
+        <fieldset class="hide step2 option3">
+            <legend>Access Type</legend>
+            <p>
+                <input id="question_2_1" name="group_3" type="radio" />
+                <label for="question_2_1">I have remote access to the router or switch.</label>
+            </p>
+            <p>
+                <input id="question_2_2" name="group_3" type="radio" />
+                <label for="question_2_2">I have physical access to the router or switch.</label>
+            </p>
+        </fieldset>
+
+        <fieldset class="hide step2 option4">
+            <legend>Access Type</legend>
+            <p>
+                <input id="question_2_1" name="group_3" type="radio" />
+                <label for="question_2_1">I have remote access to the machine running the application.</label>
+            </p>
+            <p>
+                <input id="question_2_2" name="group_3" type="radio" />
+                <label for="question_2_2">I have physical access to the machine running the application.</label>
+            </p>
+        </fieldset>
+
         <fieldset class="hide step3 option11">
-            <legend>The Rack Power is fine, Try different power sockets in Rack, Still No Power?</legend>
+            <legend>Problem Type</legend>
             <p>
                 <input id="question_1_1_1" name="group_4" type="radio"/>
-                <label for="question_1_1_1">Yes</label>
+                <label for="question_1_1_1">Slow / sluggish performance.</label>
             </p>
             <p>
                 <input id="question_1_1_2" name="group_4" type="radio"/>
-                <label for="question_1_1_2">No</label>
+                <label for="question_1_1_2">Pop-ups / Malware</label>
+            </p>
+            <p>
+                <input id="question_1_1_3" name="group_4" type="radio"/>
+                <label for="question_1_1_3">Blue Screen of Death (BSOD)</label>
             </p>
         </fieldset>
+
         <fieldset class="hide step3 option12">
-            <legend>Check Rack Power (PDU) and Main Power and UPS</legend>
+            <legend>Problem Type</legend>
             <p>
                 <input id="question_1_2_1" name="group_5" type="radio"/>
-                <label for="question_1_2_1">Yes</label>
+                <label for="question_1_2_1">Slow / sluggish performance.</label>
+            <p>
+                <input id="question_1_2_2" name="group_5" type="radio"/>
+                <label for="question_1_2_2">Pop-ups / Malware</label>
             </p>
             <p>
-                <input id="question_1_2_2" name="group_5" type="radio" />
-                <label for="question_1_2_2">No</label>
+                <input id="question_1_2_3" name="group_5" type="radio"/>
+                <label for="question_1_2_3">Blue Screen of Death (BSOD)</label>
+            </p>
+            <p>
+                <input id="question_1_2_3" name="group_5" type="radio"/>
+                <label for="question_1_2_3">Boot Failure</label>
             </p>
         </fieldset>
+
         <fieldset class="hide step3 option21">
             <legend>Reseat the power cables on the server PSU ,Still No Power</legend>
             <p>
@@ -94,6 +134,7 @@
                 <label for="question_2_1_2">No</label>
             </p>
         </fieldset>
+
         <fieldset class="hide step3 option22">
             <legend>Its an Issue with the wall socket</legend>
             <p>
