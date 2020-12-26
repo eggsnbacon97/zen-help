@@ -12,8 +12,8 @@
 
     <head>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="app.js"></script>
-        <link rel="stylesheet" href="style.css">
+      <script src="assets/app.js"></script>
+        <link rel="stylesheet" href="assets/style.css">
     </head> 
          
 
@@ -102,6 +102,10 @@
                 <input id="question_1_1_3" name="group_4" type="radio"/>
                 <label for="question_1_1_3">Blue Screen of Death (BSOD)</label>
             </p>
+            <p>
+                <input id="question_1_1_4" name="group_4" type="radio"/>
+                <label for="question_1_1_4">Network Connectivity</label>
+            </p>
         </fieldset>
 
         <fieldset class="hide step3 option12">
@@ -118,32 +122,44 @@
                 <label for="question_1_2_3">Blue Screen of Death (BSOD)</label>
             </p>
             <p>
-                <input id="question_1_2_3" name="group_5" type="radio"/>
-                <label for="question_1_2_3">Boot Failure</label>
+                <input id="question_1_2_4" name="group_5" type="radio"/>
+                <label for="question_1_2_4">Network Connectivity</label>
+            </p>
+            <p>
+                <input id="question_1_2_5" name="group_5" type="radio"/>
+                <label for="question_1_2_5">Boot Failure</label>
             </p>
         </fieldset>
 
         <fieldset class="hide step3 option21">
-            <legend>Reseat the power cables on the server PSU ,Still No Power</legend>
+            <legend>Problem Type</legend>
             <p>
                 <input id="question_2_1_1" name="group_6" type="radio" />
-                <label for="question_2_1_1">Yes</label>
+                <label for="question_2_1_1">Connected, will not print.</label>
             </p>
             <p>
                 <input id="question_2_1_2" name="group_6" type="radio" />
-                <label for="question_2_1_2">No</label>
+                <label for="question_2_1_2">Cannot view printer to initiate a print job.</label>
             </p>
         </fieldset>
 
         <fieldset class="hide step3 option22">
-            <legend>Its an Issue with the wall socket</legend>
+            <legend>Problem Type</legend>
             <p>
                 <input id="question_2_2_1" name="group_7" type="radio" />
-                <label for="question_2_2_1">Resolved</label>
+                <label for="question_2_2_1">No Power</label>
             </p>
             <p>
                 <input id="question_2_2_2" name="group_7" type="radio" />
-                <label for="question_2_2_2">No</label>
+                <label for="question_2_2_2">No Connection</label>
+            </p>
+            <p>
+                <input id="question_2_2_3" name="group_7" type="radio" />
+                <label for="question_2_2_3">Connected, will not print.</label>
+            </p>
+            <p>
+                <input id="question_2_2_4" name="group_7" type="radio" />
+                <label for="question_2_2_4">Cannot view printer to initiate a print job.</label>
             </p>
         </fieldset>
     </form>
