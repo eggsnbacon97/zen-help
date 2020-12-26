@@ -57,3 +57,7 @@ a:active {
   text-decoration: underline;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
