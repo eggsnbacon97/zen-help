@@ -33,29 +33,7 @@ footer {
   font-family: "Segoe UI"
 }
 
-a:link {
-  color: whitesmoke;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
 @viewport {
   width: device-width ;
