@@ -1,9 +1,17 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 fieldset {margin:20px 0;}
 .hide {display:none;}
 
 fieldset {
   font-size: 1em;
-  font-family: "Segoe UI"
+  font-family: "Segoe UI";
+  border-radius: .3em;
+  margin-left:4em;
+  margin-right: 4em;
 }
 
 legend {
@@ -17,6 +25,8 @@ body {
   font-family: "Segoe UI";
   background-color: #242424;
   color: rgb(245, 243, 243);
+  margin: 0 0 100px; /* bottom = footer height */
+  
 }
 
 .license{
@@ -24,7 +34,13 @@ body {
   text-align: center;
 }
 
-footer {
+footer,
+.push {
+  position: absolute;
+  left: 1em;
+  bottom: 0;
+  height: 100px;
+  width: 90%;
   font-size: 1em;
   font-family: "Segoe UI";
   color: #269b6e;
@@ -112,6 +128,7 @@ h2{
 
 a:link {
   color: whitesmoke;
+  text-decoration: none;
 }
 a:visited {
   color: whitesmoke;
@@ -129,4 +146,14 @@ a:active {
   color: whitesmoke;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.button {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Segoe UI";
+  background-color: #269b6e;
+  color: whitesmoke;
+  border-radius: .3em;
+  border: transparent;
 }
