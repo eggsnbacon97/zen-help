@@ -58,6 +58,7 @@ h2{
 .topnav {
   overflow: hidden;
   background-color: #3c87c5;
+  border-color: whitesmoke;
 }
 
 /* Style the links inside the navigation bar */
@@ -107,4 +108,25 @@ h2{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+a:link {
+  color: whitesmoke;
+}
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #269b6e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
 }
