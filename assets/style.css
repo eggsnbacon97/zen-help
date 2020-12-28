@@ -20,7 +20,7 @@ body {
 }
 
 .license{
-  padding:5em;
+  padding:3em;
   text-align: center;
 }
 
@@ -30,6 +30,10 @@ footer {
   color: #269b6e;
 }
 
+.contact {
+  padding:3em;
+  text-align: center;
+}
 
 .header {
   padding: .1em;
